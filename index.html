@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mister Wolf — Frizerie & Barbershop București | Programări online</title>
+<meta name="description" content="Mister Wolf — full service luxury barbershop în București. Tunsori, bărbierit, tuns barbă și pachete complete. Programează-te online la bărbierul preferat.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Libre+Franklin:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <img src="images/Logo Negative small.png" alt="Mister Wolf" class="brand-mark">
+      <span class="brand-word">Mister Wolf</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Deschide meniul" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#servicii">Servicii &amp; prețuri</a>
+      <a href="#barbieri">Bărbierii noștri</a>
+      <a href="#galerie">Galerie foto</a>
+      <a href="#contact">Contact</a>
+      <a href="#booking" class="nav-cta">Programează-te</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-ring" aria-hidden="true"></div>
+      <p class="hero-eyebrow hero-in" style="--d:0s">București · Strada Grigore Cobălcescu 12</p>
+      <h1 class="hero-title">
+        <span class="line-mask"><span class="line line-1">Full service</span></span>
+        <span class="line-mask"><span class="line line-2">luxury</span></span>
+        <span class="line-mask"><span class="line line-3"><em>barbershop.</em></span></span>
+      </h1>
+      <p class="hero-copy hero-in" style="--d:0.32s">
+        De la tunsori până la bărbierit, tunderea mustății și a bărbii — o gamă
+        completă de servicii, gândite să se potrivească nevoilor tale.
+      </p>
+      <div class="hero-actions hero-in" style="--d:0.5s">
+        <a href="#booking" class="btn btn-primary">Programează-te</a>
+        <a href="#servicii" class="btn btn-ghost">Vezi prețurile</a>
+      </div>
+    </div>
+    <div class="hero-rule"></div>
+    <p class="hero-tags">hair · beard · grooming · products · style</p>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto reveal">
+    <p>
+      Salonul nostru s-a născut din dorința de a schimba modul în care percepeți o
+      tunsoare. Misiunea noastră nu e doar să creăm un aspect frumos, ci să hrănim
+      spiritul și să relaxăm corpul și mintea. Oamenii merg la saloane pentru
+      <span>a arăta</span> într-un anumit fel — noi vrem ca ei să vină la Mister Wolf
+      pentru <span>a se simți</span> într-un anumit fel. În timp, putem uita cum am
+      fost tunși. Niciodată nu vom uita cum ne-am simțit.
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services reveal" id="servicii">
+    <div class="section-head">
+      <h2 class="split-text">Servicii &amp; prețuri</h2>
+      <p>Tarife pentru serviciile individuale și pachetele complete.</p>
+    </div>
+
+    <div class="price-groups">
+      <div class="price-group">
+        <h3>Servicii</h3>
+        <ul class="price-list">
+          <li>
+            <span class="price-name">Basic Cut<small>tunsoare simplă din foarfecă și mașină + styling</small></span>
+            <span class="price-value">90 Ron</span>
+          </li>
+          <li>
+            <span class="price-name">Special Cut<small>tunsoare modernă (skin fade, mullet, fringe etc.) + spălat + styling</small></span>
+            <span class="price-value">110 Ron</span>
+          </li>
+          <li>
+            <span class="price-name">Mr. Wolf's Signature<small>tunsoare modernă + spălat + masaj capilar cu loțiune tonică + styling</small></span>
+            <span class="price-value">120 Ron</span>
+          </li>
+          <li>
+            <span class="price-name">Beard Trim<small>tuns și aranjat de barbă + contur din mașină, shaver sau brici + styling</small></span>
+            <span class="price-value">60 Ron</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="price-group">
+        <h3>Pachete</h3>
+        <ul class="price-list">
+          <li>
+            <span class="price-name">Silver Fur Package<small>Basic Cut + Beard Trim</small></span>
+            <span class="price-value">140 Ron</span>
+          </li>
+          <li>
+            <span class="price-name">Shiny Fur Package<small>Special Cut + Beard Trim</small></span>
+            <span class="price-value">150 Ron</span>
+          </li>
+          <li>
+            <span class="price-name">Golden Fur Package<small>Mr. Wolf's Signature + Beard Trim</small></span>
+            <span class="price-value">170 Ron</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- BARBERS -->
+  <section class="barbers reveal" id="barbieri">
+    <div class="section-head">
+      <h2 class="split-text">Alege bărbierul</h2>
+      <p>Fiecare programare se face direct la bărbierul ales.</p>
+    </div>
+    <div class="barber-grid" id="booking">
+      <a class="barber-card scale-in" href="https://misterwolf.setmore.com/andrei-lupu" target="_blank" rel="noopener">
+        <img src="images/andrei.png" alt="Andrei">
+        <span class="barber-name">Andrei</span>
+        <span class="barber-lang">RO</span>
+      </a>
+      <a class="barber-card scale-in" href="https://liviuagache.setmore.com" target="_blank" rel="noopener">
+        <img src="images/liviu.png" alt="Liviu">
+        <span class="barber-name">Liviu</span>
+        <span class="barber-lang">RO / EN</span>
+      </a>
+      <a class="barber-card scale-in" href="https://misterwolf.setmore.com/bogdan-moroianu" target="_blank" rel="noopener">
+        <img src="images/bogdan.png" alt="Bogdan">
+        <span class="barber-name">Bogdan</span>
+        <span class="barber-lang">RO / EN</span>
+      </a>
+      <a class="barber-card scale-in" href="https://misterwolf.setmore.com/marius-dumitrescu" target="_blank" rel="noopener">
+        <img src="images/marius.png" alt="Marius">
+        <span class="barber-name">Marius</span>
+        <span class="barber-lang">RO / EN</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery reveal" id="galerie">
+    <div class="section-head">
+      <h2 class="split-text">Galerie foto</h2>
+      <p>O privire în interiorul salonului.</p>
+    </div>
+    <div class="gallery-grid">
+      <img src="images/Gallery/DSC08196.JPG" alt="Interior Mister Wolf 1" loading="lazy" class="scale-in">
+      <img src="images/Gallery/DSC08200.JPG" alt="Interior Mister Wolf 2" loading="lazy" class="scale-in">
+      <img src="images/Gallery/DSC08207.JPG" alt="Interior Mister Wolf 3" loading="lazy" class="scale-in">
+      <img src="images/Gallery/DSC08210.JPG" alt="Interior Mister Wolf 4" loading="lazy" class="scale-in">
+      <img src="images/Gallery/DSC08211.JPG" alt="Interior Mister Wolf 5" loading="lazy" class="scale-in">
+      <img src="images/Gallery/DSC08233.JPG" alt="Interior Mister Wolf 6" loading="lazy" class="scale-in">
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials reveal">
+    <div class="section-head">
+      <h2 class="split-text">Ce spun clienții</h2>
+    </div>
+    <div class="testimonial-track">
+      <blockquote>
+        <p>„Easy to schedule. Always respecting the appointment time. Professional in regards to attitude and job done.”</p>
+        <cite>Valentin B. — ★★★★★</cite>
+      </blockquote>
+      <blockquote>
+        <p>„Very stylish and cosy.”</p>
+        <cite>Andrei S. — ★★★★★</cite>
+      </blockquote>
+      <blockquote>
+        <p>„Best barbershop in town. 100% quality.”</p>
+        <cite>Osca T. — ★★★★★</cite>
+      </blockquote>
+      <blockquote>
+        <p>„I highly recommend this place! Scheduling was as easy as it gets and services are definitely high-end.”</p>
+        <cite>Vlad H. — ★★★★★</cite>
+      </blockquote>
+      <blockquote>
+        <p>„Best haircut in Bucharest if not Romania! I drive across town and that is no small task given Bucharest traffic!”</p>
+        <cite>David C. — ★★★★★</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products reveal">
+    <div class="section-head">
+      <h2 class="split-text">Produsele cu care lucrăm</h2>
+    </div>
+    <div class="product-track">
+      <div class="product-item scale-in"><img src="images/Products/andis.png" alt="Andis" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/babylisspro.png" alt="BaByliss PRO" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/denman.jpg" alt="Denman" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/derby.jpg" alt="Derby" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/jack-dean.jpg" alt="Jack Dean" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/lavish.png" alt="Lavish" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/morgans.png" alt="Morgan's" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/proraso.png" alt="Proraso" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/dear-barber.png" alt="Dear Barber" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/reuzel2.png" alt="Reuzel" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/slick-gorilla.jpg" alt="Slick Gorilla" loading="lazy"></div>
+      <div class="product-item scale-in"><img src="images/Products/uppercut.png" alt="Uppercut Deluxe" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact reveal" id="contact">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <img src="images/Logo Negative small.png" alt="Mister Wolf" class="contact-logo">
+        <p class="contact-address">
+          Strada Grigore Cobălcescu 12<br>
+          București 010195, România
+        </p>
+        <a class="contact-phone" href="tel:+40799999981">0799 999 981</a>
+        <a class="contact-waze" href="https://ul.waze.com/ul?place=ChIJrVbNdYf_sUARgZwpqdi-nyQ&ll=44.43783930%2C26.08668290&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank" rel="noopener">Direcții pe Waze →</a>
+      </div>
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2848.7716553837654!2d26.086452!3d44.437846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff5c83942bbd%3A0xd11d9697dab89028!2sStrada%20Grigore%20Cob%C4%83lcescu%2014%2C%20Bucure%C8%99ti%2C%20Romania!5e0!3m2!1sen!2sus!4v1695820000452!5m2!1sen!2sus"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Locația Mister Wolf pe hartă">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Mister Wolf Barbershop. Toate drepturile rezervate.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
